@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(3, 3, 88);
+    color: white;
+}
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(53, 53, 132);
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 35px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:rgb(146, 146, 234);
+}
+.left{
+    font-size: 20px;
+}
+.right{font-size: 18px;}
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+}
+.leftSection{
+    width: 23%;
+
+}
+.rightSection{
+    width: 30%;
+    font-size: 2rem;
+    margin-top: 90px;
+    line-height: 42px;
+}
+.leftSection img{
+    width: 100%;
+    height: 380px;
+    border-radius: 50%;
+    
+}
+hr{
+    border: 1.6px solid rgb(59, 59, 140);
+    margin: 40px 94px;
+}
+.secondSection{
+    margin: 40px 150px;
+    height: 400px;
+    width: 80%;
+}
+.secondSection .text{
+    color: grey;
+    font-size: 17px;
+}
+.secondSection .box{
+    background-color: white;
+    margin: 66px 0;
+    width: 85vw;
+    height: 2px; 
+    display: flex;
+}
+.secondSection .vertical{
+    background-color: white;
+    height: 75px;
+    width: 1px;
+    margin: 0 140px;
+}
+.image-top{
+       position: relative;
+       width: 40px;
+       top: -39px;
+       left: -15px;
+    
+}
+.title{
+    margin-top: 38px;
+    width: 170px;
+    left: -15px;
+    line-height: 30px;
+    font-size: larger;
+}
+.desc{
+    width: 260px;
+    color: grey;
+}
+.footer{
+    height: 470px;
+    background-color: rgb(34, 26, 60);
+    padding: 25px;
+    padding-left: 100px;
+    text-align: center;
+}    
+.footer-first{
+    margin: 20px;
+    text-align: center;
+}
+
+input{
+    border: 2px solid black;
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    background-color:rgb(211, 210, 213);
+
+}
+textarea{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:rgb(211, 210, 213) ;
+}
+button{
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(20, 66, 20);
+}
+button:hover{
+    background-color: rgb(41, 41, 134);
+}
+.footer-second{
+    font-size: 17px;
+    color: grey;
+}

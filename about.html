@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0;
+        margin: 0;}
+        body{
+            background-color: rgb(3, 3, 88);
+            color: white;
+        }
+        nav{
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(53, 53, 132);
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 35px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover{
+            color:rgb(146, 146, 234);
+        }
+        .left{
+          font-size: 20px;
+        }
+        .right{font-size: 18px;}
+        .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 70px;
+    }
+    .leftSection{
+        width: 23%;
+
+    }
+    .rightSection{
+        width: 30%;
+        font-size: 2rem;
+        margin-top: 20px;
+        line-height: 42px;
+    }
+    .leftSection img{
+        width: 100%;
+        height: 380px;
+        border-radius: 50%;
+        
+    }
+        .main{font-size: 1.5rem;
+        color: grey;}
+        h1{margin-top: 30px;
+        text-align: center;
+    color: darkgrey;}
+    .edu{height: 460px;
+        margin: 40px 80px;
+        
+        }
+        table{width: 100%;}
+        table, th, td{border: 3px solid;
+        border-collapse: collapse;
+        }
+        th{
+            height: 40px;
+        }
+        td{height: 90px;}
+        hr{
+        border: 1.6px solid rgb(59, 59, 140);
+        margin: 40px 0;
+    }
+    .personal{
+        height: 200px;
+        margin: 40px 100px;
+    }
+    .one{
+        width: 50%;
+        height: 200px;
+        float: left;
+        font-size: larger;
+        
+    }
+    .two{
+        width: 50%;
+        height: 200px;
+        float: left;
+        font-size: larger;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Ekta's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <img src="ekta img.jpg">
+            </div>
+            <div class="rightSection">Hello, My name is <div style="color: blueviolet;">Ekta Maurya</div> 
+                <div>and I am a passionate <div style="color: blueviolet;">Web Developer</div>
+             <div class="main">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit facilis soluta blanditiis. Aliquid nemo repellat at magnam, non esse. Laborum, pariatur nostrum! Similique ab quisquam quam, exercitationem velit itaque ratione.</div>
+            </div>
+        </section>
+        <hr>
+        <h1>Educational Qualification</h1>
+        <div class="edu">
+            <table>
+                <tr>
+                    <th>Qualification</th>
+                    <th>Stream</th>
+                    <th>School/College</th>
+                    <th>Board/University</th>
+                    <th>Year of Passing</th>
+                    <th>Aggregate</th> 
+                </tr>
+                <tr>
+                    <td>M.tech</td>
+                    <td>CSE</td>
+                    <td>XYZ</td>
+                    <td>XYZ</td>
+                    <td>2025</td>
+                    <td>90%</td>
+                </tr>
+                <tr>
+                    <td>B.tech</td>
+                    <td>CSE</td>
+                    <td>XYZ</td>
+                    <td>XYZ</td>
+                    <td>2023</td>
+                    <td>85%</td>
+                </tr>
+                <tr>
+                    <td>Secondary</td>
+                    <td>PCM</td>
+                    <td>XYZ</td>
+                    <td>XYZ</td>
+                    <td>2019</td>
+                    <td>90%</td>
+                </tr>
+                <tr>
+                    <td>High School</td>
+                    <td>Science</td>
+                    <td>XYZ</td>
+                    <td>XYZ</td>
+                    <td>2017</td>
+                    <td>85%</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <h1>Personal Details </h1>
+        <div class="personal">
+           <div class="one">
+            Father's Name : XYZ <br><br>
+            Mother's Name : XYZ  <br><br>
+            Address : XYZ
+           </div>
+           <div class="two">
+            Date of Birth : XYZ <br><br>
+            Language : Hindi, English <br><br>
+            Hobbies : XYZ
+
+           </div>
+        </div>
+    </main>   
+</body>
+</html>
